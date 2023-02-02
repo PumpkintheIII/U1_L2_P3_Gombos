@@ -40,7 +40,12 @@ int main(void) {
   numSum += num5;
   //^gets the sum of all numbers and stores it in numSum
   
-  printf("\nSum: %f", numSum); //
+  printf("\nSum: %f", numSum); //prints numSum
+
+  numAvg = numSum/5; //finds the average of the numbers
+
+  printf("\nAverage: %f", numAvg); 
+  //prints the average of the numbers, formatted as a float
   
-  return 0;
+  return 0; //ends the program
 }
